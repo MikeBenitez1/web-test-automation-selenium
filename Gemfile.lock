@@ -65,22 +65,8 @@ GEM
       thread_safe
     racc (1.6.0)
     rainbow (3.1.1)
-    rake (13.0.6)
     regexp_parser (2.2.0)
     rexml (3.2.5)
-    rspec (3.10.0)
-      rspec-core (~> 3.10.0)
-      rspec-expectations (~> 3.10.0)
-      rspec-mocks (~> 3.10.0)
-    rspec-core (3.10.2)
-      rspec-support (~> 3.10.0)
-    rspec-expectations (3.10.2)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.10.0)
-    rspec-mocks (3.10.3)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.10.0)
-    rspec-support (3.10.3)
     rubocop (1.25.0)
       parallel (~> 1.10)
       parser (>= 3.1.0.0)
@@ -123,8 +109,6 @@ PLATFORMS
 DEPENDENCIES
   colorize
   cucumber (~> 6.0.0)
-  rake (~> 13.0)
-  rspec (~> 3.0)
   rubocop
   selenium-webdriver (~> 4.1)
   standard
