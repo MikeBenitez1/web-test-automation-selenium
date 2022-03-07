@@ -7,6 +7,8 @@ def driver_init
   elsif ENV['BROWSER'] == "safari"
     caps = Selenium::WebDriver::Capabilities.safari
     Selenium::WebDriver.for :safari, capabilities: caps
+  else
+    raise("Browser not found")
   end
 end
 
