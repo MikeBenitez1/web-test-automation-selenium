@@ -1,7 +1,7 @@
 
 
 Given(/^Swagger user opens url in browser$/) do
- # The url can be stored and called from a yaml file
+ # TODO: The url can be stored and called from a yaml file as future improvement
   @driver.get 'https://www.saucedemo.com/'
 end
 
