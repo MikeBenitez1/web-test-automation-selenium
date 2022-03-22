@@ -1,6 +1,8 @@
 # web-test-automation-selenium
 Personal basic project to practice web test automation with Selenium, Cucumber and Ruby for SauceLabs example web https://www.saucedemo.com/
 
+![execution](https://user-images.githubusercontent.com/59778782/159519608-b7f9ca4b-36b5-4c70-b762-3648cce7def5.gif)
+
 ## Table of Contents
 
 1. [Requirements](#requirements)
