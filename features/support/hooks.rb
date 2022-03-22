@@ -2,7 +2,8 @@
 # TODO: A screenshot evidence handler class can be created as future improvement
 
 Before do
-  driver_init
+  DriverSetup.driver_init
+  @driver = $driver
 end
 
 After do

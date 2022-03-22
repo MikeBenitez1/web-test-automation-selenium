@@ -3,11 +3,26 @@
 # Module with all login page elements
 module LoginElements
 
-    TEXT_VIEWS = {
-        login_page_copy: {
-            locator: :css,
-            element: 'login-button'
-        }
-    }.freeze
+  BUTTONS = {
+    login_button: {
+      css: '#login-button'
+    }
+  }.freeze
+
+  TEXT_FIELDS = {
+    username_field: {
+      css: '#user-name'
+    },
+    password_field: {
+      css: '#password'
+    }
+  }.freeze
+
+  TEXT_VIEWS = {
+    login_copy: {
+      xpath: '//*[@id="login_credentials"]/h4'
+    }
+  }.freeze
 
 end
+

@@ -1,6 +1,7 @@
 # Cucumber profiles for automation execution
 
 # Generates a nice looking HTML report and prints pretty report on console.
+
 # TODO: Folder and file creation with date and time can be created for html report as future improvement
 default: --format pretty --format html --out browser_report.html --publish-quiet
 

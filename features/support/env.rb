@@ -6,6 +6,5 @@ require "selenium-webdriver"
 require 'webdrivers'
 
 # Load the files in the defined order
-require_all './config'
-require_all './page_object'
+require_all 'page_object'
 

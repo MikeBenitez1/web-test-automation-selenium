@@ -17,8 +17,9 @@ Personal basic project to practice web test automation with Selenium, Cucumber a
 
 ## Getting Started
 
-### Install dependencies to collaborate or run the test cases (this can be used on Windows and Mac OS)
-* Install Ruby (any version higher than 3.0.1) from terminal with command `rvm install ruby`.
+### Install dependencies to automate or just to run the test cases (this can be used on Windows and Mac OS)
+* Install rvm with `\curl -sSL https://get.rvm.io | bash -s stable`.
+* Install Ruby (3.0.1) on terminal with `rvm install "ruby-3.0.1"`.
 * Install the gem bundle from terminal inside the repository with command `gem install bundler` .
 * Install all the gems with command  `bundle install`.
 

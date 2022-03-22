@@ -1,13 +1,11 @@
 # Author: miguel_301213@hotmail.com
-# Swagger happy path scenarios
+# Swag_Labs Login Scenarios
 
-Feature: Swagger Happy Paths
-  @regression @happy_paths
-  Scenario: Swagger user is able to login successful
-    Given Swagger user opens url in browser
-    Then Swagger user sees the "login" page
-    When Swagger user enters "valid" user
-    And Swagger user enters "valid" password
-    And Swagger user clicks "login" button
-    Then Swagger user sees the "products" page
+Feature: Swag_Labs - Login
+  @regression @happy_paths @login
+  Scenario: Swag_labs user is able to login successful using a registered account
+    Given Swag_labs user opens url in browser
+    Given Swag_labs user sees the "login" page
+    When Swag_labs user performs login with "valid" data
+    Then Swag_labs user sees the "products" page
 
