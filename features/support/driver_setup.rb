@@ -4,16 +4,16 @@ class DriverSetup
   class << self
 
     def driver_init
-      if ENV['BROWSER'] == "chrome"
+      case ENV['BROWSER']
+      when "chrome"
         caps = Selenium::WebDriver::Options.chrome
         $driver = Selenium::WebDriver.for :chrome, capabilities: caps
-      elsif ENV['BROWSER'] == "safari"
+      when "safari"
         caps = Selenium::WebDriver::Capabilities.safari
         $driver = Selenium::WebDriver.for :safari, capabilities: caps
       else
         raise("Browser not found")
       end
-
     end
 
   end

@@ -3,6 +3,7 @@
 
 Before do
   DriverSetup.driver_init
+  # TODO: To change/avoid the global variable as future improvement
   @driver = $driver
 end
 
